@@ -14,7 +14,8 @@ public class Main {
 //
 //        variableTypes();
         //MathFormulasIf.mathFormulas();
-        MathFormulasSwitch.mathFormulasSwitch();
+//        MathFormulasSwitch.mathFormulasSwitch();
+        TryCatch.tryCatch();
     }
     private static void variableTypes() {
         byte byteVar = 1;
