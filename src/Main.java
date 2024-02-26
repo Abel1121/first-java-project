@@ -2,7 +2,9 @@ public class Main {
     public static void main(String[] args) {
 //        loop();
 //        variableTypes();
-        MathOperator.mathOperator();
+       // MathOperator.mathOperator();
+      //MathFormulasIf.mathFormulas();
+        MathFormulasSwitch.mathFormulasSwitch();
     }
     private static void loop() {
         System.out.println("Hello and welcome!");
@@ -11,7 +13,6 @@ public class Main {
 
             System.out.println("i = " + i);
         }
-    }
 
     private static void variableTypes() {
         byte byteVar = 1;
