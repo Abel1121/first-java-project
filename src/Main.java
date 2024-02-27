@@ -4,8 +4,10 @@ public class Main {
 //        variableTypes();
        // MathOperator.mathOperator();
       //MathFormulasIf.mathFormulas();
-        MathFormulasSwitch.mathFormulasSwitch();
+        //MathFormulasSwitch.mathFormulasSwitch();
+     OperationOnArray.operationOnArray();
     }
+  
     private static void loop() {
         System.out.println("Hello and welcome!");
 
