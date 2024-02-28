@@ -6,6 +6,7 @@ public class Main {
       //MathFormulasIf.mathFormulas();
         //MathFormulasSwitch.mathFormulasSwitch();
      OperationOnArray.operationOnArray();
+   DoWhile.doWhile();
     }
   
     private static void loop() {
@@ -15,6 +16,7 @@ public class Main {
 
             System.out.println("i = " + i);
         }
+    }
 
     private static void variableTypes() {
         byte byteVar = 1;
