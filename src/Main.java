@@ -13,6 +13,9 @@ public class Main {
         audi.price = 23.000;
         audi.km = 1200;
         audi.getVehicleInfo();
+        System.out.println("Top speed 1: " + audi.getTopSpeed());
+        audi.setTopSpeed(150);
+        System.out.println("Top speed: 2: " + audi.getTopSpeed());
 
         System.out.println("---------------------");
 
