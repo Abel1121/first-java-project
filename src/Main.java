@@ -7,6 +7,7 @@ public class Main {
         //MathFormulasSwitch.mathFormulasSwitch();
      OperationOnArray.operationOnArray();
    DoWhile.doWhile();
+      ForLoop.forLoop();
     }
   
     private static void loop() {
