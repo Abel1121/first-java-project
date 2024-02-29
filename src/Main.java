@@ -2,11 +2,25 @@ public class Main {
     public static void main(String[] args) {
 //        loop();
 //        variableTypes();
-       // MathOperator.mathOperator();
-      //MathFormulasIf.mathFormulas();
-        //MathFormulasSwitch.mathFormulasSwitch();
-     OperationOnArray.operationOnArray();
-   DoWhile.doWhile();
+//        MathOperator.mathOperator();
+//        MathFormulasIf.mathFormulas();
+//        MathFormulasSwitch.mathFormulasSwitch();
+//        OperationOnArray.operationOnArray();
+//        DoWhile.doWhile();
+        ClassObject audi = new ClassObject("Audi");
+        audi.color = "red";
+        audi.price = 23.000;
+        audi.km = 1.200;
+        audi.getCarInfo();
+
+        System.out.println("---------------------");
+
+        ClassObject bmw = new ClassObject();
+        bmw.model = "BMW";
+        bmw.color = "blue";
+        bmw.price = 15.000;
+        bmw.km = 1.50;
+        bmw.getCarInfo();
       ForLoop.forLoop();
     }
   
