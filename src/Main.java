@@ -7,21 +7,30 @@ public class Main {
 //        MathFormulasSwitch.mathFormulasSwitch();
 //        OperationOnArray.operationOnArray();
 //        DoWhile.doWhile();
-        ClassObject audi = new ClassObject("Audi");
+//        ForLoop.forLoop();
+        Car audi = new Car("Audi");
         audi.color = "red";
         audi.price = 23.000;
-        audi.km = 1.200;
-        audi.getCarInfo();
+        audi.km = 1200;
+        audi.getVehicleInfo();
 
         System.out.println("---------------------");
 
-        ClassObject bmw = new ClassObject();
+        Car bmw = new Car();
         bmw.model = "BMW";
         bmw.color = "blue";
         bmw.price = 15.000;
-        bmw.km = 1.50;
-        bmw.getCarInfo();
-      ForLoop.forLoop();
+        bmw.km = 150;
+        bmw.getVehicleInfo();
+
+        System.out.println("---------------------");
+
+        Bicycle bicycle = new Bicycle();
+        bicycle.model = "Składak";
+        bicycle.color = "black";
+        bicycle.price = 15.000;
+        bicycle.getVehicleInfo();
+        bicycle.ringBell();
     }
   
     private static void loop() {
