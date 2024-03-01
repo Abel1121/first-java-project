@@ -8,6 +8,7 @@ public class Main {
      OperationOnArray.operationOnArray();
    DoWhile.doWhile();
       ForLoop.forLoop();
+       ArraysMatrices.arraysMatrices();
     }
   
     private static void loop() {
