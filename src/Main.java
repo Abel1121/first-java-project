@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 //        loop();
 //        variableTypes();
+        TryCatch.tryCatch();
        // MathOperator.mathOperator();
       //MathFormulasIf.mathFormulas();
         //MathFormulasSwitch.mathFormulasSwitch();
