@@ -2,11 +2,17 @@ public class Main {
     public static void main(String[] args) {
 //        loop();
 //        variableTypes();
+        TryCatch.tryCatch();
        // MathOperator.mathOperator();
       //MathFormulasIf.mathFormulas();
-//        MathFormulasSwitch.mathFormulasSwitch();
         Recursion.recursion();
+        //MathFormulasSwitch.mathFormulasSwitch();
+     OperationOnArray.operationOnArray();
+   DoWhile.doWhile();
+      ForLoop.forLoop();
+       ArraysMatrices.arraysMatrices();
     }
+  
     private static void loop() {
         System.out.println("Hello and welcome!");
 
