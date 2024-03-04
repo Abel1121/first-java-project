@@ -5,6 +5,7 @@ public class Main {
         TryCatch.tryCatch();
        // MathOperator.mathOperator();
       //MathFormulasIf.mathFormulas();
+        Recursion.recursion();
         //MathFormulasSwitch.mathFormulasSwitch();
      OperationOnArray.operationOnArray();
    DoWhile.doWhile();
