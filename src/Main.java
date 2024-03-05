@@ -21,7 +21,13 @@ public class Main {
         bmw.price = 15.000;
         bmw.km = 1.50;
         bmw.getCarInfo();
-      ForLoop.forLoop();
+        TryCatch.tryCatch();
+       // MathOperator.mathOperator();
+      //MathFormulasIf.mathFormulas();
+        Recursion.recursion();
+        //MathFormulasSwitch.mathFormulasSwitch();
+     OperationOnArray.operationOnArray();
+   DoWhile.doWhile();
     }
   
     private static void loop() {
