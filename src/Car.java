@@ -5,7 +5,14 @@ public class Car extends Vehicle {
     }
 
     public Integer km;
+    private Integer topSpeed = 120;
 
+    public void setTopSpeed(Integer topSpeed) {
+        this.topSpeed = topSpeed;
+    }
+    public Integer getTopSpeed() {
+        return topSpeed;
+    }
     @Override
     public void getVehicleInfo() {
         super.getVehicleInfo();
