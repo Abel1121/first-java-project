@@ -20,5 +20,6 @@ public class Interface {
         System.out.println(animal.getNumberOfLegs());
         animal.sleep();
         animal.wakeUp();
+        System.out.println(animal.getSize());
     }
 }
