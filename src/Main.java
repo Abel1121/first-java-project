@@ -1,3 +1,7 @@
+import vehicles.Bicycle;
+import vehicles.Car;
+import vehicles.Truck;
+
 public class Main {
     public static void main(String[] args) {
 //        loop();
@@ -8,6 +12,9 @@ public class Main {
 //        OperationOnArray.operationOnArray();
 //        DoWhile.doWhile();
 //        ForLoop.forLoop();
+//        TryCatch.tryCatch();
+//        Recursion.recursion();
+
         Car audi = new Car("Audi");
         audi.color = "red";
         audi.price = 23.000;
@@ -16,6 +23,7 @@ public class Main {
         System.out.println("Top speed 1: " + audi.getTopSpeed());
         audi.setTopSpeed(150);
         System.out.println("Top speed: 2: " + audi.getTopSpeed());
+        audi.run();
 
         System.out.println("---------------------");
 
@@ -25,6 +33,7 @@ public class Main {
         bmw.price = 15.000;
         bmw.km = 150;
         bmw.getVehicleInfo();
+        bmw.run();
 
         System.out.println("---------------------");
 
@@ -34,16 +43,12 @@ public class Main {
         bicycle.price = 15.000;
         bicycle.getVehicleInfo();
         bicycle.ringBell();
-        bmw.km = 1.50;
-        bmw.getCarInfo();
-      
-        TryCatch.tryCatch();
-       // MathOperator.mathOperator();
-      //MathFormulasIf.mathFormulas();
-        Recursion.recursion();
-        //MathFormulasSwitch.mathFormulasSwitch();
-     OperationOnArray.operationOnArray();
-   DoWhile.doWhile();
+        bicycle.run();
+
+        System.out.println("---------------------");
+
+        Truck truck = new Truck();
+        truck.run();
     }
   
     private static void loop() {
