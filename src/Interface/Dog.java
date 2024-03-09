@@ -1,16 +1,15 @@
 package Interface;
 
-public class Cat implements Animal, Mammal {
+public class Dog implements Animal, Mammal {
     @Override
     public void talk() {
-
+        System.out.println("Szczek szczek");
     }
 
     @Override
     public String getType() {
-        return "Cat";
+        return "Dog";
     }
-
 
     @Override
     public int getNumberOfLegs() {
@@ -19,12 +18,11 @@ public class Cat implements Animal, Mammal {
 
     @Override
     public void sleep() {
-        System.out.println("Cat sleeping");
+        System.out.println("Dog is sleeping");
     }
 
     @Override
     public void wakeUp() {
-        Animal.super.wakeUp();
-        Mammal.super.wakeUp();
+        System.out.println("Dog is wake UP!");
     }
 }
