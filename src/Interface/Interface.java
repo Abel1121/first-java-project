@@ -2,21 +2,23 @@ package Interface;
 
 public class Interface {
     public static void interfaces() {
-        Animal cat = new Cat();
-        Animal bird = new Bird();
+        Cat cat = new Cat();
+        Bird bird = new Bird();
+        Dog dog = new Dog();
 
-        System.out.println("CAT");
-        cat.talk();
-        System.out.println(cat.getNumberOfLegs());
-        cat.sleep();
-        cat.wakeUp();
+        Animal[] animals = {cat, bird, dog};
 
-        System.out.println("------------------");
+        for (Animal animal : animals) {
+            showAnimalInfo(animal);
+            System.out.println("------------------");
+        }
+    }
 
-        System.out.println("BIRD");
-        bird.talk();
-        System.out.println(bird.getNumberOfLegs());
-        bird.sleep();
-        bird.wakeUp();
+    private static void showAnimalInfo(Animal animal) {
+        System.out.println(animal.getType());
+        animal.talk();
+        System.out.println(animal.getNumberOfLegs());
+        animal.sleep();
+        animal.wakeUp();
     }
 }
