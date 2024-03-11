@@ -15,9 +15,8 @@ public class Main {
 //        Vehicles.vehicles();
         Interface.interfaces();
 
-
     }
-  
+
     private static void loop() {
         System.out.println("Hello and welcome!");
 
