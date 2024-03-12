@@ -3,6 +3,7 @@ package Interface;
 public interface Animal {
     void talk();
     String getType();
+    SizeType getSize();
     int getNumberOfLegs();
 
     default void sleep() {

@@ -10,7 +10,10 @@ public class Dog implements Animal, Mammal {
     public String getType() {
         return "Dog";
     }
-
+    @Override
+    public SizeType getSize() {
+        return SizeType.BIG;
+    }
     @Override
     public int getNumberOfLegs() {
         return 4;
