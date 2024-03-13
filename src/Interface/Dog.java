@@ -1,6 +1,21 @@
 package Interface;
 
 public class Dog implements Animal, Mammal {
+    public static final int DOG_LEGS = 4;
+
+    private static int dogsCount;
+
+    Dog() {
+        dogsCount++;
+    }
+
+    public static int getAllDogsLegs() {
+        return dogsCount * DOG_LEGS;
+    }
+
+    public static int getDogsCount() {
+        return dogsCount;
+    }
     @Override
     public void talk() {
         System.out.println("Szczek szczek");
