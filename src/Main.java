@@ -15,7 +15,8 @@ public class Main {
 //        Vehicles.vehicles();
 //        Interface.interfaces();
 //        ConsoleCalculator.consoleCalculator();
-        AreaOfTriangle.areaOfTriangle();
+//        AreaOfTriangle.areaOfTriangle();
+        CircleArea.circleArea();
     }
   
     private static void loop() {
