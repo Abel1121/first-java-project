@@ -13,8 +13,8 @@ public class Main {
 //        TryCatch.tryCatch();
 //        Recursion.recursion();
 //        Vehicles.vehicles();
-        Interface.interfaces();
-
+//        Interface.interfaces();
+        ConsoleCalculator.consoleCalculator();
 
     }
   
