@@ -17,7 +17,11 @@ public class Main {
 //        ConsoleCalculator.consoleCalculator();
 //        AreaOfTriangle.areaOfTriangle();
 //        CircleArea.circleArea();
-        PINumberFormatting.pINumberFormatting();
+//        PINumberFormatting.pINumberFormatting();
+//        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww --admin"});
+//        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww"});
+//        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd  sdd qqqqq wwww --admin"});
+        RandomNumber.randomNumber();
     }
   
     private static void loop() {
