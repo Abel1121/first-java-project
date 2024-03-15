@@ -17,7 +17,7 @@ public class Main {
         SaveToFile.saveToFile();
 
     }
-  
+
     private static void loop() {
         System.out.println("Hello and welcome!");
 
