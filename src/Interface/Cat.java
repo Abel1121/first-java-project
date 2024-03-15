@@ -11,7 +11,10 @@ public class Cat implements Animal, Mammal {
         return "Cat";
     }
 
-
+    @Override
+    public SizeType getSize() {
+        return SizeType.MEDIUM;
+    }
     @Override
     public int getNumberOfLegs() {
         return 4;
