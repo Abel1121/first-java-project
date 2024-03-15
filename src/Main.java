@@ -1,4 +1,5 @@
 import Interface.Interface;
+import enums.DemoEnum;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +22,8 @@ public class Main {
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww --admin"});
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww"});
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd  sdd qqqqq wwww --admin"});
-        RandomNumber.randomNumber();
+//        RandomNumber.randomNumber();
+        DemoEnum.demoEnum();
     }
   
     private static void loop() {
