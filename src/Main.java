@@ -14,7 +14,8 @@ public class Main {
 //        Recursion.recursion();
 //        Vehicles.vehicles();
 //        Interface.interfaces();
-        SaveToFile.saveToFile();
+        ConsoleCalculator.consoleCalculator();
+//        SaveToFile.saveToFile();
 
     }
 
