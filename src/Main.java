@@ -14,9 +14,9 @@ public class Main {
 //        Recursion.recursion();
 //        Vehicles.vehicles();
 //        Interface.interfaces();
-        ConsoleCalculator.consoleCalculator();
+//        ConsoleCalculator.consoleCalculator();
+        AreaOfTriangle.areaOfTriangle();
 //        SaveToFile.saveToFile();
-
     }
 
     private static void loop() {
