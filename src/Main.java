@@ -16,8 +16,9 @@ public class Main {
 //        Interface.interfaces();
 //        ConsoleCalculator.consoleCalculator();
         AreaOfTriangle.areaOfTriangle();
+//        SaveToFile.saveToFile();
     }
-  
+
     private static void loop() {
         System.out.println("Hello and welcome!");
 
