@@ -16,7 +16,8 @@ public class Main {
 //        Interface.interfaces();
 //        ConsoleCalculator.consoleCalculator();
 //        AreaOfTriangle.areaOfTriangle();
-        CircleArea.circleArea();
+//        CircleArea.circleArea();
+        PINumberFormatting.pINumberFormatting();
 //        SaveToFile.saveToFile();
     }
 
