@@ -21,9 +21,10 @@ public class Main {
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww --admin"});
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd --guest sdd qqqqq wwww"});
 //        AdminGuestMode.adminGuestMode(new String[]{"asdasd asdssss sdsdsdsd  sdd qqqqq wwww --admin"});
-        RandomNumber.randomNumber();
+        PINumberFormatting.pINumberFormatting();
+//        SaveToFile.saveToFile();
     }
-  
+
     private static void loop() {
         System.out.println("Hello and welcome!");
 
